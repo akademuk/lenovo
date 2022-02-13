@@ -1,0 +1,323 @@
+@font-face {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 600;
+      src: local("Gotham"),
+           url("/fonts/Gotham_bold.otf") format("otf"),
+    }
+    @font-face {
+        font-family: "MyriadPro";
+        font-style: normal;
+        font-weight: 400;
+          src: local("MyriadPro"),
+               url("/fonts/MyriadPro-Regular") format("woff"),
+        }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+/* Header section */
+header {
+    background: url(../img/01_background.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 10vh;
+    padding-top: 85px;
+}
+.header_tittle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end; 
+    position: relative;
+    
+}
+.header_tittle_img {
+    width: 20%;
+    padding-left: 7%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.header_tittle_img img {
+    max-width: 100%;
+   max-height: 100%;
+    object-fit: scale-down;
+    display: flex;
+}
+.header_tittle_version {
+    text-transform: uppercase;
+    font: 7vw/0.7 "Gotham", "Arial", sans-serif;
+    font-weight: 600;
+}
+.header_tittle_link {
+    font: 5vw/1 "MyriadPro", "Arial", sans-serif;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    color: #fff;
+    padding: 22px 10px;
+    background: #3E8DDD;
+    box-sizing: border-box;
+    
+}
+@media (max-width: 992px) {
+    header {
+        
+        padding: 10px;
+    }
+    .header_tittle_img img {
+        width: 80%;
+        height: 30%;
+    }
+    .header_tittle_link {
+        right: -10px;
+    }
+}
+@media (max-width: 576px) {
+    header {
+        
+        padding: 10px;
+    }
+    .header_tittle_img img {
+        width: 80%;
+        height: 30%;
+    }
+    .header_tittle_link {
+        right: -10px;
+    }
+}
+/* -------------------------------------------------------- */
+
+/* CPU */
+.cpu {
+    background: url(../img/CPU.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 16vh 7vw 17vh 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+.cpu_left_section {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cpu_right_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    max-width: 100%;
+}
+.cpu_right_section_info {
+    width: 40%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.cpu_right_section_info:nth-of-type(3) {
+    margin-bottom: 0;
+}
+.cpu_right_section_info_text {
+    font: 1.3vw/1 "MyriadPro", "Arial", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.cpu_left_section_img {
+    object-fit: contain;
+}
+.cpu_right_section_info_img {
+    width: 50%;
+    object-fit: contain;
+}
+h2 {
+    font: 4vw/1 "Gotham", "Arial", sans-serif;
+    font-weight: 600;
+    background: -webkit-linear-gradient(-123deg, #4facfe, #00f2fe);
+    background: linear-gradient(-123deg, #4facfe, #00f2fe);
+    background: -webkit-linear-gradient(-123deg, #4facfe, #00f2fe);
+    background: -moz-linear-gradient(-123deg, #4facfe, #00f2fe);
+    background: -o-linear-gradient(-123deg, #4facfe, #00f2fe);
+    background: -ms-linear-gradient(-123deg, #4facfe, #00f2fe);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#4facfe', endColorstr='#00f2fe', GradientType=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4facfe',endColorstr='#00f2fe')";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width: 992px) {
+.cpu {
+    padding: 50px;
+}
+.cpu_left_section {
+    width: 40%;
+    justify-content: space-around;
+}
+.cpu_right_section {
+    width: 55%;
+}
+}
+@media (max-width: 576px) {
+   .cpu {
+       padding: 21px;
+   }
+   .cpu_right_section_info {
+       margin-bottom: 20px;
+   }
+}
+
+/* -------------------------------------------------------- */
+
+/* AMD */
+.amd {
+    background: url(../img/Amd.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+   justify-content: flex-end;
+    position: relative;
+    padding: 200px 100px;
+    
+}
+.amd_container {
+    width: 40%;
+    
+}
+.amd_container_text {
+    margin-top: 55px;
+    font: 1.3vw/1.5 "MyriadPro", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+.amd_container_img {
+    width: 157px;
+    height: 141px;
+    object-fit: contain;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
+@media (max-width: 992px) {
+    .amd {
+        padding: 50px;
+    }
+    .amd_container_img {
+        width: 20%;
+        height: 20%;
+        object-fit: contain;
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+    }
+    .amd_container_text {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .amd {  
+        padding: 20px;
+    }
+    .amd_container_img {
+        left: 20px;
+        bottom: 20px;
+    }
+}
+/* -------------------------------------------------------- */
+
+/* GAME */
+.game {
+    background: url(../img/game.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    padding: 200px 100px;
+    
+}
+.game_container {
+    width: 40%;
+}
+.game_container_text {
+    margin-top: 55px;
+    font: 1.3vw/1.5 "MyriadPro", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+@media (max-width: 992px) {
+    .game {
+        padding: 50px;
+    }
+    .game_container_text {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .game {
+        
+        padding: 40px 15px;
+    }
+}
+/* -------------------------------------------------------- */
+
+/* Dolby */
+.dolby {
+    background: url(../img/dolby.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 200px 100px;
+    
+}
+.dolby_container {
+    width: 40%;
+}
+.dolby_container_text {
+    margin-top: 55px;
+    font: 1.3vw/1.5 "MyriadPro", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 130px;
+}
+.dolby_container_img {
+    width: 15%;
+    height: 12%;
+    object-fit: contain;
+    position: absolute;
+    right: 4.5vw;
+    bottom: 10vh;
+}
+@media (max-width: 992px) {
+    .dolby {
+        padding: 50px;
+    }
+    .dolby_container_text {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .dolby {
+        background-size: contain;
+        padding: 10px;
+    }
+
+}
