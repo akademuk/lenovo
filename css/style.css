@@ -90,7 +90,7 @@ header {
         height: 30%;
     }
     .header_tittle_link {
-        right: -10px;
+        right: 0;
     }
 }
 /* -------------------------------------------------------- */
@@ -229,11 +229,15 @@ h2 {
 }
 @media (max-width: 576px) {
     .amd {  
-        padding: 20px;
+        padding: 50px 20px;
+     
     }
     .amd_container_img {
         left: 20px;
         bottom: 20px;
+    }
+    .amd_container {
+        width: 60%;
     }
 }
 /* -------------------------------------------------------- */
@@ -269,8 +273,13 @@ h2 {
 }
 @media (max-width: 576px) {
     .game {
-        
         padding: 40px 15px;
+    }
+    .game_container {
+        width: 60%;
+    }
+    .game_container_text {
+        font-size: 2vw;
     }
 }
 /* -------------------------------------------------------- */
@@ -316,8 +325,108 @@ h2 {
 }
 @media (max-width: 576px) {
     .dolby {
-        background-size: contain;
         padding: 10px;
     }
+    .dolby_container {
+        width: 60%;
+    }
+    .dolby_container_text {
+        font-size: 2vw;
+    }
+}
+/* -------------------------------------------------------- */
 
+/* FPS */
+.fps {
+    background: url(../img/fps.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    padding: 200px 100px;
+    
+}
+.fps_container {
+    width: 40%;
+}
+.fps_container_text {
+    margin-top: 55px;
+    font: 1.3vw/1.5 "MyriadPro", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+@media (max-width: 992px) {
+    .fps {
+        padding: 50px;
+    }
+    .fps_container_text {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .fps {   
+        padding: 40px 15px;
+    }
+    .fps_container {
+        width: 60%;
+    }
+    .fps_container_text {
+        font-size: 2vw;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+/* legionAI */
+.legionAI {
+    background: url(../img/CPU.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 100px;
+    
+}
+.legionAI_container {
+    width: 40%;
+}
+.legionAI_container_text {
+    margin-top: 55px;
+    font: 1.3vw/1.5 "MyriadPro", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+.legionAI_img {
+    width: 64%;
+    height: 100%;
+    object-fit: contain;
+}
+.legionAI_img_container {
+    width: 60%;
+}
+@media (max-width: 992px) {
+    .legionAI {
+        padding: 50px;
+    }
+    .legionAI_container_text {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .legionAI {   
+        padding: 40px 15px;
+    }
+    .legionAI_container {
+        width: 60%;
+    }
+    .legionAI_img_container {
+        width: 40%;
+    }
+    .legionAI_container_text {
+        font-size: 3vw;
+    }
 }
