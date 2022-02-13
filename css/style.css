@@ -229,7 +229,7 @@ h2 {
 }
 @media (max-width: 576px) {
     .amd {  
-        padding: 50px 20px;
+        padding: 20px;
      
     }
     .amd_container_img {
@@ -237,7 +237,10 @@ h2 {
         bottom: 20px;
     }
     .amd_container {
-        width: 60%;
+        width: 80%;
+    }
+    .amd_container_text {
+        font-size: 3vw;
     }
 }
 /* -------------------------------------------------------- */
@@ -276,10 +279,10 @@ h2 {
         padding: 40px 15px;
     }
     .game_container {
-        width: 60%;
+        width: 80%;
     }
     .game_container_text {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
 /* -------------------------------------------------------- */
@@ -328,10 +331,10 @@ h2 {
         padding: 10px;
     }
     .dolby_container {
-        width: 60%;
+        width: 80%;
     }
     .dolby_container_text {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
 /* -------------------------------------------------------- */
@@ -370,10 +373,10 @@ h2 {
         padding: 40px 15px;
     }
     .fps_container {
-        width: 60%;
+        width: 80%;
     }
     .fps_container_text {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
 
