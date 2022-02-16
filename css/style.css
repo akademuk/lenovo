@@ -528,7 +528,7 @@ h2 {
     display: flex;
     justify-content: flex-start;
     padding: 435px 0 50px 70px;
-    height: auto;
+    height: 50vh;
     align-items: end;
 }
 .nahimic_container {
@@ -561,10 +561,52 @@ h2 {
         padding: 40px 15px;
         height: 50vh;
     }
-    .nahimic_container {
+    .nahimic_container_text {
+        font-size: 2vw;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+/* work */
+.work {
+    background: url(../img/work.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 135px 70px 100px 70px;
+    height: auto;
+}
+.work_container {
+    width: 40%;
+}
+.work_container_text {
+    margin-top:50px;
+    font: 1.5vw/1.5 "MyriadPro", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) {
+    .work {
+        padding: 50px;
+    }
+    .work_container_text {
+        margin-top: 20px;
+        font-size: 1.3vw;
+    }
+}
+@media (max-width: 576px) {
+    .work {
+        padding: 20px;
+    }
+    .work_container {
         width: 50%;
     }
-    .nahimic_container_text {
+    .work_container_text {
         font-size: 2vw;
     }
 }
