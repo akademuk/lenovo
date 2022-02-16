@@ -484,7 +484,7 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 40vh 0 50px 70px;
+    padding: 30vh 0 50px 70px;
     height: auto;
     align-items: flex-end;
 }
@@ -698,5 +698,8 @@ h3 {
     }
     .margin {
         margin-bottom: 25px;
+    }
+    .footer_link {
+        display: none;
     }
 }
