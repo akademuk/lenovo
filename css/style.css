@@ -384,7 +384,7 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100% 100%;
+    background-size:cover;
     display: flex;
     justify-content: flex-start;
     padding: 135px 0 100px 70px;
@@ -427,7 +427,7 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     padding: 137px 70px 100px 70px;
@@ -484,7 +484,7 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 335px 0 100px 70px;
+    padding: 40vh 0 100px 70px;
     height: auto;
     align-items: flex-end;
 }
@@ -530,8 +530,8 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 435px 0 50px 70px;
-    height: 40vh;
+    padding: 80vh 0 50px 70px;
+    height: auto;
     align-items: flex-end;
 }
 .nahimic_container {
@@ -574,7 +574,7 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
     padding: 135px 70px 100px 70px;
@@ -622,7 +622,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 60px 100px 10px 150px;
-    height: 100vh;
+    height: auto;
     position: relative;
 }
 .first_section, .second_section{
@@ -655,7 +655,7 @@ h3 {
     display: flex;
     border-right: 1px solid #00f3ff;
 }
-.container {
+.container_block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -681,4 +681,22 @@ h3 {
     padding: 22px 10px;
     background: #3E8DDD;
     box-sizing: border-box;
+}
+.margin {
+    margin-bottom: 100px;
+}
+.container_block_left {
+    margin-right: 10px;
+}
+@media (max-width:992px) {
+    footer {
+        padding: 30px;
+    }
+    .second_section, .third_section, .fourth_section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .margin {
+        margin-bottom: 25px;
+    }
 }
