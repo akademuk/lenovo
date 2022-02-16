@@ -25,7 +25,7 @@ header {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% 100%;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     padding-top: 85px;
     height: 100vh;
 }
@@ -111,10 +111,10 @@ header {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% 100%;
-    padding:16vh 7vw 17vh 7vw;
+    padding:100px;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: auto;
 }
 .cpu_left_section {
     width: 55%;
@@ -207,11 +207,7 @@ h2 {
        margin-top: 15px;
    }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .cpu {
-        height:auto;
-    }
-}
+
 /* -------------------------------------------------------- */
 
 /* AMD */
@@ -222,18 +218,17 @@ h2 {
     background-position: top center;
     background-size: 100% 100%;
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
     position: relative;
-    padding:100px;
+    padding: 135px 70px 100px 0;
     height: auto;
 }
 .amd_container {
     width: 40%;
-    
 }
 .amd_container_text {
     margin-top: 55px;
-    font: 1.5vw/1.5 "MyriadPro", "Arial", sans-serif;
+    font: 1.3vw/1.5 "MyriadPro", "Arial", sans-serif;
     color: #fff;
     font-weight: 400;
 }
@@ -248,7 +243,6 @@ h2 {
 @media (max-width: 992px) {
     .amd {
         padding: 50px;
-        height: 100vh;
     }
     .amd_container_img {
         width: 15%;
@@ -262,7 +256,6 @@ h2 {
         margin-top: 20px;
         font-size: 1.3vw;
     }
-    
 }
 @media (max-width: 576px) {
     .amd {  
@@ -281,11 +274,7 @@ h2 {
         font-size: 2vw;
     }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .amd {
-        height:auto;
-    }
-}
+
 /* -------------------------------------------------------- */
 
 /* GAME */
@@ -297,7 +286,7 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 125px 100px;
+    padding: 135px 0 100px 70px;
     height: auto;
 }
 .game_container {
@@ -311,7 +300,6 @@ h2 {
 }
 @media (max-width: 992px) {
     .game {
-        height: 100vh;
         padding:100px 50px;
     }
     .game_container_text {
@@ -330,11 +318,7 @@ h2 {
         font-size: 2vw;
     }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .game {
-        height:auto;
-    }
-}
+
 /* -------------------------------------------------------- */
 
 /* Dolby */
@@ -347,7 +331,7 @@ h2 {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    padding: 100px 100px;
+    padding: 135px 70px 100px 0;
     height: auto;
 }
 .dolby_container {
@@ -363,14 +347,13 @@ h2 {
 .dolby_container_img {
     width: 15%;
     height: 12%;
-    object-fit:fill;
+    object-fit:contain;
     position: absolute;
-    right: 4.5vw;
+    right: 70px;
     bottom: 5vh;
 }
 @media (max-width: 992px) {
     .dolby {
-        height: 100vh;
         padding: 50px;
     }
     .dolby_container_text {
@@ -380,8 +363,7 @@ h2 {
 }
 @media (max-width: 576px) {
     .dolby {
-
-        padding: 10px;
+        padding: 20px;
     }
     .dolby_container {
         width: 50%;
@@ -390,11 +372,7 @@ h2 {
         font-size: 2vw;
     }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .dolby {
-        height:auto;
-    }
-}
+
 /* -------------------------------------------------------- */
 
 /* FPS */
@@ -406,8 +384,8 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 100px 100px;
-    height:auto;
+    padding: 135px 0 100px 70px;
+    height: auto;
 }
 .fps_container {
     width: 50%;
@@ -428,18 +406,13 @@ h2 {
 }
 @media (max-width: 576px) {
     .fps {   
-        padding: 40px 15px;
+        padding:20px;
     }
     .fps_container {
         width: 50%;
     }
     .fps_container_text {
         font-size: 2vw;
-    }
-}
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .fps {
-        height:auto;
     }
 }
 
@@ -454,8 +427,8 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
-    padding: 100px 100px;
-    height: 100vh;
+    padding: 135px 70px 100px 70px;
+    height: auto;
 }
 .legionAI_container {
     width: 40%;
@@ -484,7 +457,7 @@ h2 {
 }
 @media (max-width: 576px) {
     .legionAI {   
-        padding: 40px 15px;
+        padding: 20px;
     }
     .legionAI_container {
         width: 50%;
@@ -496,11 +469,7 @@ h2 {
         font-size: 2vw;
     }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .legionAI {
-        height:auto;
-    }
-}
+
 /* -------------------------------------------------------- */
 
 /* keyboard */
@@ -512,8 +481,8 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 100px 100px;
-    height: 100vh;
+    padding: 335px 0 100px 70px;
+    height: auto;
     align-items: end;
 }
 .keyboard_container {
@@ -547,11 +516,6 @@ h2 {
         font-size: 2vw;
     }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .keyboard {
-        height:auto;
-    }
-}
 /* -------------------------------------------------------- */
 
 /* keyboard */
@@ -563,8 +527,8 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 50px 100px;
-    height: 100vh;
+    padding: 435px 0 50px 70px;
+    height: auto;
     align-items: end;
 }
 .nahimic_container {
@@ -587,8 +551,9 @@ h2 {
         padding: 50px;
     }
     .nahimic_container_text {
-        margin-top: 20px;
+        margin-top: 5px;
         font-size: 1.3vw;
+        margin-left: 10px;
     }
 }
 @media (max-width: 576px) {
@@ -603,9 +568,5 @@ h2 {
         font-size: 2vw;
     }
 }
-@media screen and (max-width: 992px) and (orientation: portrait) {
-    .nahimic {
-        height:auto;
-    }
-}
+
 /* -------------------------------------------------------- */
