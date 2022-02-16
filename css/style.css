@@ -184,6 +184,15 @@ h2 {
    .cpu_right_section {
        height: 100%;
    }
+   .cpu_left_section {
+       justify-content: flex-start;
+   }
+   .cpu_left_section_img {
+       margin-top: 50px;
+   }
+   .cpu_left_section {
+       height: 100%;
+   }
 }
 
 /* -------------------------------------------------------- */
