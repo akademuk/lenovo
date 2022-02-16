@@ -169,7 +169,6 @@ h2 {
 }
 @media (max-width: 992px) {
 .cpu {
-    height: 100vh;
     padding: 20px;
 }
 .cpu_left_section {
@@ -371,6 +370,10 @@ h2 {
     .dolby_container_text {
         font-size: 2vw;
     }
+    .dolby_container_img {
+        right: 20px;
+        bottom: 10vh;
+    }
 }
 
 /* -------------------------------------------------------- */
@@ -427,7 +430,7 @@ h2 {
     background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
-    padding: 135px 70px 100px 70px;
+    padding: 137px 70px 100px 70px;
     height: auto;
 }
 .legionAI_container {
@@ -483,7 +486,7 @@ h2 {
     justify-content: flex-start;
     padding: 335px 0 100px 70px;
     height: auto;
-    align-items: end;
+    align-items: flex-end;
 }
 .keyboard_container {
     width: 40%;
@@ -495,10 +498,6 @@ h2 {
     font-weight: 400;
 }
 @media (max-width: 992px) {
-    .keyboard {
-        height: 100vh;
-        padding: 50px;
-    }
     .keyboard_container_text {
         margin-top: 20px;
         font-size: 1.3vw;
@@ -529,7 +528,7 @@ h2 {
     justify-content: flex-start;
     padding: 435px 0 50px 70px;
     height: 50vh;
-    align-items: end;
+    align-items: flex-end;
 }
 .nahimic_container {
     width: 100%;
@@ -592,7 +591,7 @@ h2 {
 
 @media (max-width: 992px) {
     .work {
-        padding: 50px;
+        padding: 75px 20px;
     }
     .work_container_text {
         margin-top: 20px;
@@ -600,9 +599,7 @@ h2 {
     }
 }
 @media (max-width: 576px) {
-    .work {
-        padding: 20px;
-    }
+
     .work_container {
         width: 50%;
     }
