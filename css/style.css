@@ -699,4 +699,7 @@ h3 {
     .margin {
         margin-bottom: 25px;
     }
+    .footer_link {
+        right: 1%;
+    }
 }
