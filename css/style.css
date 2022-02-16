@@ -89,7 +89,7 @@ header {
         height: 30%;
     }
     .header_tittle_link {
-        right: 0;
+        right: 0 !important;
     }
     .header_tittle_link {
         font-size: 3vw;
@@ -196,6 +196,9 @@ h2 {
    .cpu_left_section_img {
       width: 100%;
       height: 100%;
+   }
+   .cpu_right_section_info_text {
+       margin-top: 15px;
    }
 }
 
