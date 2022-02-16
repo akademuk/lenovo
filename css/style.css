@@ -24,7 +24,7 @@ header {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     padding-bottom: 10vh;
     padding-top: 85px;
     height: 100vh;
@@ -110,7 +110,7 @@ header {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     padding:16vh 7vw 17vh 7vw;
     display: flex;
     justify-content: space-between;
@@ -214,11 +214,11 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
    justify-content: flex-end;
     position: relative;
-    padding: 200px 100px;
+    padding:16vh 7vw 17vh 7vw;
     
 }
 .amd_container {
@@ -237,7 +237,7 @@ h2 {
     object-fit: contain;
     position: absolute;
     left: 100px;
-    bottom: 200px;
+    bottom: 100px;
 }
 @media (max-width: 992px) {
     .amd {
@@ -278,10 +278,10 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 200px 100px;
+    padding: 125px 100px;
     
 }
 .game_container {
@@ -320,11 +320,11 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     justify-content: flex-end;
     position: relative;
-    padding: 200px 100px;
+    padding: 100px 100px;
     
 }
 .dolby_container {
@@ -372,10 +372,10 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 200px 100px;
+    padding: 100px 100px;
     
 }
 .fps_container {
@@ -415,10 +415,10 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
-    padding: 200px 100px;
+    padding: 100px 100px;
     
 }
 .legionAI_container {
