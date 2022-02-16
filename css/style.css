@@ -232,7 +232,6 @@ h2 {
 @media (max-width: 576px) {
     .amd {  
         padding: 20px;
-     
     }
     .amd_container_img {
         left: 20px;
@@ -281,10 +280,10 @@ h2 {
         padding: 40px 15px;
     }
     .game_container {
-        width: 80%;
+        width: 50%;
     }
     .game_container_text {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }
 /* -------------------------------------------------------- */
@@ -333,10 +332,10 @@ h2 {
         padding: 10px;
     }
     .dolby_container {
-        width: 80%;
+        width: 50%;
     }
     .dolby_container_text {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }
 /* -------------------------------------------------------- */
@@ -375,10 +374,10 @@ h2 {
         padding: 40px 15px;
     }
     .fps_container {
-        width: 80%;
+        width: 50%;
     }
     .fps_container_text {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }
 
@@ -426,12 +425,12 @@ h2 {
         padding: 40px 15px;
     }
     .legionAI_container {
-        width: 60%;
+        width: 50%;
     }
     .legionAI_img_container {
-        width: 40%;
+        width: 50%;
     }
     .legionAI_container_text {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }
