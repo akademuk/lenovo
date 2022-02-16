@@ -56,7 +56,7 @@ header {
     font-weight: 600;
 }
 .header_tittle_link {
-    font: 5vw/1 "MyriadPro", "Arial", sans-serif;
+    font: 4vw/1 "MyriadPro", "Arial", sans-serif;
     position: absolute;
     right:0;
     bottom: 0;
@@ -97,6 +97,10 @@ header {
     .header_tittle {
         max-width: 100%;
     }
+    .header_tittle_link {
+        display: none;
+    }
+    
 }
 /* -------------------------------------------------------- */
 
