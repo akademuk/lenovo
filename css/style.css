@@ -94,6 +94,9 @@ header {
     .header_tittle_link {
         font-size: 3vw;
     }
+    .header_tittle {
+        max-width: 100%;
+    }
 }
 /* -------------------------------------------------------- */
 
@@ -177,6 +180,9 @@ h2 {
    }
    .cpu_right_section_info {
        margin-bottom: 20px;
+   }
+   .cpu_right_section {
+       height: 100%;
    }
 }
 
